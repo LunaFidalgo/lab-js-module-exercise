@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Rover</title>
+  <script src="javascripts/app.js"></script>
+</head>
+<body>
+
+  <h2> Welcome to "Mars Rover" mission </h2>
+  <p> 
+
+    First of all, you have to initialize the grid: you must use the "initialization" function, which receives four arguments: number of obstacles, number of rows, number of columns and number of rovers (1 or 2).
+    .Valid example: initialization(5, 10, 10, 2)
+    <br> To control the rover you can make the following movements:
+      <ol>
+        <li> Turn the rover: "N" is north. "S" is south. "W" is west and "E" is east. You can do this with: turnleft ("l") or turnright ("r") functions. </li>
+        <li> Move forward ("f")  </li>
+        <li> Move backwards. ("r") </li>
+      </ol>
+    
+      For this purpose, you can use the function "moveTheRover", which receives what movements you want to do and the rover you want to move ("rover" for rover 1 and "rover2" for rover 2)..
+
+     <br> Ah! Remember: the rover is on unknown ground, so... there may be obstacles. 
+
+    <br>Valid example: moveTheRover("rfffrfffb", rover); moveTheRover("rfffrfffb", rover2)
+
+     
+  </p> 
+
+</body>
+</html>
